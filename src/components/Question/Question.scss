@@ -4,4 +4,31 @@
     background-repeat: repeat;
     width: 80%;
     min-height: 80vh;
+    .question {
+        width: 50%;
+        margin: 10px auto;
+        p {
+            text-align: center;
+            font-size: 30px;
+            text-align: justify;
+        }
+    }
+    .option {
+        margin-top: 4%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        .btn {
+            width: 50%;
+            height: 60px;
+            margin-bottom: 10px;
+            font-size: 30px;
+            background: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+        }
+    }
 }
