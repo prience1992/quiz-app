@@ -1,0 +1,11 @@
+@import "src/config.scss";
+.quiz-container {
+    background-color: #dcfffa;
+    min-height: 100vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

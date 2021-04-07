@@ -1,5 +1,11 @@
+import QuizContainer from "./components/QuizContainer/QuizContainer";
+
 function App() {
-  return <div className="App">hi there</div>;
+  return (
+    <div className="App">
+        <QuizContainer></QuizContainer>
+      </div>
+  );
 }
 
 export default App;
